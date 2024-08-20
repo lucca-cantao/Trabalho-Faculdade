@@ -10,7 +10,7 @@ function calcular(){
 }
 
 botao.addEventListener("click",(evento) =>{
-    evento.preventDefault();
+    evento.preventDefault ();
     if(input1.value == ""){
         alert("O X *pode* ser nulo");
         calcular();
