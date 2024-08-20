@@ -21,7 +21,7 @@ botao.addEventListener("click", (evento) => {
 });
 apagarbtn.addEventListener("click", (evento) => {
     evento.preventDefault();
-    if (input1.value == "" || input2.value == "") {
+    if (input1.value == "" || input2.value == "" ) {
       alert("Os campos estao limpos");
     } else {
       span.innerHTML = "";
